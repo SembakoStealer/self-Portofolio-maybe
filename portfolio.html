@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Portofolio</title>
+        <link rel="icon" type="image" href="Gambar\Homepage\favIcon\favicon.ico">
+    </head>
+    <style>
+
+        /*Mengatur Border dari gambar supaya bulat*/
+        .circle-image {
+            width: 200px;          
+            height: 200px;         
+            border-radius: 50%;    
+            object-fit: cover;     
+            position: absolute;     
+            top: 50px;
+            left: 650px;
+        }
+
+        /*Mengatur supaya tabelya sebelah sebelahan*/
+        .container {
+            display: flex;  
+            justify-content:end; 
+        }
+
+        /*pengaturan Tabel*/
+        table{
+            
+            border: 1px solid #001840;
+            border-collapse: collapse;
+            margin-right: 100px;
+        }
+        .tabel2 th,td{
+           border: 1px solid #001840;
+            padding: 8px;
+
+        }
+        
+        /*Supaya tabelnya ada belang atau sriped */
+        .tabel1 tr:nth-child(even) {
+            background-color: #60acf9;
+          }
+
+        /*Mengatur 3 link antar page*/
+          a:link {
+            color: green;
+            background-color: transparent;
+            text-decoration: none;
+          }
+          
+          a:visited {
+            color: pink;
+            background-color: transparent;
+            text-decoration: none;
+          }
+          
+          a:hover {
+            color: #248232;
+            background-color: transparent;
+            text-decoration: none;
+          }
+          
+        /*mengatur jarak link antar page*/
+          .nav {
+            display: flex;
+            justify-content: center;  
+            gap: 30px;                
+            text-align: center;
+          }
+    </style>
+    
+    <body>
+        <!--Gambar tema page-->
+        <img src="Gambar/gq_gq-sports-10-essentials-ishowspeed.jpg" alt="Foto Ishowspeed makan ayam" class="circle-image">
+
+        <!--Spacing-->
+        <br><br>
+        <br><br>
+        <br><br>
+        <br><br>
+        <br><br>
+        <br><br>
+
+        <center><!--Ngatur supaya ditengah-->
+        <h1 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 300%; "> 
+            Here are my <span style="color: #102a71;"> skills </span> & <span style="color: #102a71;">Projects :</span></h1>
+        </center>
+        
+        <!--Isi dari tabel ke 1-->
+        <div class="container">
+        <table class="tabel1" style="width: 40%;" >
+            <tr><strong>
+                <th style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">No.</th>
+                <th style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Skills</th>
+                <th style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" colspan="2">Proficiency Level &
+                Years of experience</th>
+                </strong>
+            </tr>
+            <tr>    
+                <th style="font-family: 'Arial Narrow', Arial, sans-serif;">1.</th>
+                <th style="font-family: 'Arial Narrow', Arial, sans-serif;">Microsoft Excel Specialist</th>
+                <th style="font-family: 'Arial Narrow', Arial, sans-serif;" colspan="2">Advanced, 
+                 - 1 Year</th>
+            </tr>
+            </tr>
+                <th style="font-family: 'Arial Narrow', Arial, sans-serif;">2. </th>
+                <th style="font-family: 'Arial Narrow', Arial, sans-serif;">Drone Pilot</th>
+                <th style="font-family: 'Arial Narrow', Arial, sans-serif;" colspan="2"> Beginner Level,
+                    -1 year</th>
+            </tr>
+            <tr>
+                <th style="font-family: 'Arial Narrow', Arial, sans-serif;">3.</th>
+                <th style="font-family: 'Arial Narrow', Arial, sans-serif;">Video Editing</th>
+                <th style="font-family: 'Arial Narrow', Arial, sans-serif;" colspan="2"> Intermidiate Level,
+                    3 Years
+                </th>
+            </tr>
+            <tr>
+                <th style="font-family: 'Arial Narrow', Arial, sans-serif;">4.</th>
+                <th style="font-family: 'Arial Narrow', Arial, sans-serif;"> English Proficiency</th>
+                <th style="font-family: 'Arial Narrow', Arial, sans-serif;" colspan="2">Advanced Level,
+                    6 years
+                </th>
+            </tr>
+            <tr>
+                <th style="font-family: 'Arial Narrow', Arial, sans-serif;">5.</th>
+                <th style="font-family: 'Arial Narrow', Arial, sans-serif;"> Graphics Design</th>
+                <th style="font-family: 'Arial Narrow', Arial, sans-serif;" colspan="2">Intermediate Level,
+                    1 years
+                </th>
+            </tr>   
+
+        </table>
+    
+
+        <!--Isi dari tabel ke 2-->
+        <table style="width: 40%; background-color: white;"class="tabel2" >
+            <tr><strong>
+                <th style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >No.</th>
+                <th style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Projects</th>
+                <th style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >Description </th>
+                <th style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Tools Used</th>
+                </strong>
+            </tr>
+            <tr>    
+                <th style="font-family: 'Arial Narrow', Arial, sans-serif;" rowspan="5">1.</th>
+                <th style="font-family: 'Arial Narrow', Arial, sans-serif;" rowspan="5">Arduino Uno</th>
+                <th style="font-family: 'Arial Narrow', Arial, sans-serif;" rowspan="5">It is a small project  about displaying a running text on a lcd, how to use breadboard, and also how to make a simple motion sensor</th>
+               
+            </tr>
+            </tr>
+                
+                <th style="font-family: 'Arial Narrow', Arial, sans-serif; background-color: #60acf9;" >Arduino Uno</th>
+           
+                
+            </tr>
+            <tr>
+                
+                <th style="font-family: 'Arial Narrow', Arial, sans-serif;  ">16x2 LCD <br>(i think)</th>
+               
+                
+            </tr>
+            <tr>
+                
+                <th style="font-family: 'Arial Narrow', Arial, sans-serif; background-color: #60acf9;">Motion sensor</th>
+                
+               
+            </tr>
+            <tr>
+                
+                <th style="font-family: 'Arial Narrow', Arial, sans-serif;">breadboard & bunch of cables</th>
+                
+                
+            </tr>
+
+        </table>
+    </div>
+
+    <!--Spacing-->
+    <br><br>
+    <br><br>
+    
+    <!--Link antar page-->
+    <nav class="nav">
+        <a style="font-family:'Franklin Gothic Medium'; color: #102a71; font-size: 200%;" href="homepage.html" target="_self">Home</a>
+        <a style="font-family:'Franklin Gothic Medium'; color: #102a71; font-size: 200%;" href="about.html" target="_self">About</a>
+        <a style="font-family:'Franklin Gothic Medium'; color: #102a71; font-size: 200%;" href="contact.html" target="_self">Contact</a>
+    </nav>
+
+    <!--spacing-->
+    <br>
+
+    <!--Garis horizontal-->
+    <hr>
+    </body>
+
+</html>
