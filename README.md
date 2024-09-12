@@ -1,2 +1,2 @@
 # self-Portofolio-maybe
-  Please click one of the html above to see my "Self Portofolio"
+  I dont know how this works :P
